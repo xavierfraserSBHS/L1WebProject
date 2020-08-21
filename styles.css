@@ -1,0 +1,64 @@
+@font-face {
+  font-family: rick;
+  src: url(fonts/rick.ttf);
+}
+
+html {
+   background-image: url(images/85334.jpg);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 0.15fr 0.25fr 0.5fr 0.5fr 0.5fr 0.25fr 0.15fr;
+    grid-template-rows: auto 50px 100px 50px 100px 50px 100px;
+}
+
+nav {
+    background-color: magenta;
+    font-size: 50px;
+    grid-column: 2/7;
+    grid-row: 1/2;
+    margin: 30px 0px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: cyan;
+    font-family: rick;
+    margin: 50px; 
+    
+}
+
+a:hover {
+  background-color: red;
+  border-radius: 15px;
+  color: black; 
+}
+
+section {
+    background: rgba(255, 255 ,255 , 0.3);
+    grid-column: 3/6;
+    grid-row: 3/8;
+    border-radius: 15px;
+}
+
+h1 {
+  color: cyan;
+  text-align: left;
+  font-family: rick;
+  font-size: 32px;
+  margin-left: 5px;
+  margin-top: 5px;
+  grid-column: 3/5;
+  grid-row: 3/4; 
+} 
+
+p {
+font-family: rick;
+color: cyan;
+font-size: 25px;
+text-decoration: none;
+}
